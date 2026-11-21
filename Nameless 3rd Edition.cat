@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d30f-ae47-107e-f058" name="Nameless" revision="5" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d30f-ae47-107e-f058" name="Nameless" revision="6" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
 
 Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/</readme>
@@ -1114,7 +1114,7 @@ Special Order: Shield Surge</characteristic>
             <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="5.0"/>
           </costs>
         </entryLink>
-        <entryLink id="bb12-93ac-a1fa-0243" name="Smoke Grenade" hidden="false" collective="false" import="true" targetId="23b2-fe72-6f20-d935" type="selectionEntry">
+        <entryLink id="bb12-93ac-a1fa-0243" name="Toxic Smoke Grenade" hidden="false" collective="false" import="true" targetId="0a74-890c-d1cd-e71b" type="selectionEntry">
           <costs>
             <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="6.0"/>
           </costs>
@@ -1127,20 +1127,12 @@ Special Order: Shield Surge</characteristic>
             <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
           </costs>
         </entryLink>
-        <entryLink id="d26c-3012-35af-a60c" name="Energy Shield (3)" hidden="false" collective="false" import="true" targetId="8bab-43bc-bed3-6a2e" type="selectionEntry">
+        <entryLink id="3bee-2b79-8925-e2a7" name="Stimulant Shot" hidden="false" collective="false" import="true" targetId="cb8b-a024-4666-c724" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4bf9-3a09-a4fd-d141" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d546-52ec-dc93-a329" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="8.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="3bee-2b79-8925-e2a7" name="Energy Shield (2)" hidden="false" collective="false" import="true" targetId="1b1e-9d91-4dca-0285" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d546-52ec-dc93-a329" type="max"/>
-          </constraints>
-          <costs>
-            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="4.0"/>
+            <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="3.0"/>
           </costs>
         </entryLink>
       </entryLinks>
