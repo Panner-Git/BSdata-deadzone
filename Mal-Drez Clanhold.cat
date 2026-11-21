@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9e64-5157-c85f-10d2" name="­ Mal-Drez Clanhold" revision="1" battleScribeVersion="2.03" authorName="Panner" library="false" gameSystemId="914e-8a95-25ac-174f" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Mantic and Deadzone and all associated characters, names, places and things are TM and Copyright Mantic Entertainment 2021.
+
+Please consider supporting Mantic by purchasing a subscription to the Companion list builder at https://companion.manticgames.com/deadzone-list-builder/
+
+Currently missing: Faction-specific rules, Splat rules</readme>
+  <selectionEntries>
+    <selectionEntry id="1c86-5819-53b3-e2b7" name="- Faction Special Rules" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="513d-39e9-3719-b982" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d4-5518-fe2a-93b5" type="min"/>
+      </constraints>
+      <rules>
+        <rule id="4388-e0d8-0c86-267b" name="Specialised Operations" hidden="false">
+          <description>After deciding which scenario to play, but before Recon rolls, choose one of the following army wide special rules.  If more players have this option, choose in secret and reveal it simultaneously. </description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f67-ff34-c00b-6793" name="Jari Mal-Drez" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-88e7-878a-128c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a6-5a57-1387-bf43" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e316-ce58-488f-adbc" name="Jari Mal-Drez" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">5+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">32mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Headstrong, Recon 4+, Tactician (2)
+Special Orders: Grudges and Quarrels</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2630-bbd8-6240-2198" name="Forge Hammer" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2990-4b2b-1256-7fa0" name="Xerxes Pistol" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP3</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="abe1-b145-99e1-88ab" name="Special Orders: Grudges and Quarrels" hidden="false"/>
+      </rules>
+      <infoLinks>
+        <infoLink id="1cff-4e6c-d450-2614" name="Recon n+" hidden="false" targetId="5640-56e6-bb10-453d" type="rule"/>
+        <infoLink id="86dc-72ad-9826-e0b6" name="Tactician (n)" hidden="false" targetId="2249-d210-753f-645c" type="rule"/>
+        <infoLink id="e864-855a-a811-1cb3" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cceb-8b5e-6788-8acc" name="Leader" hidden="false" targetId="93f0-5c07-b9f5-ed97" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="200.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f0c-280c-a9e5-467c" name="Nali, Clanhold Issilgarim" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3d4-59fb-1c30-fc23" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecd3-152f-c670-2983" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="8b01-0c60-d181-dd0c" name="Nali" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Headstrong</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8365-1ec9-91e9-4b5c" name="Magma Cannon" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R5</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3833-6f57-0a63-1f17" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1eee-d022-c860-d09d" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbb6-e425-2b25-4fda" name="Hledjolf, Clanhold Ancestor" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ac3-64a5-194e-eaec" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ac-3291-1ea5-8775" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="663b-68c4-d78f-4721" name="Hledjolf" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">5+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">5+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">4</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">5</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">4</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">60mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Drop Suit, Walker</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3f22-983a-1d5b-9bc8" name="Heavy Heat Hammer and Shield" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP2</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2235-02b3-acc8-34aa" name="Dragon&apos;s Breath Launcher" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fcdd-2e11-08c0-028a" name="Drop Suit" hidden="false" targetId="c3ce-30f6-4349-198d" type="rule"/>
+        <infoLink id="785b-c5ac-72a1-666d" name="Walker" hidden="false" targetId="f27b-373b-8a43-f98c" type="rule"/>
+        <infoLink id="bb58-2b65-fc25-f6ed" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="06f9-2ab8-5d20-adbe" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+        <infoLink id="9797-ac07-9e90-d7ff" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf6f-26c3-b8fd-75c3" name="Support" hidden="false" targetId="1364-5634-04d6-8af7" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7bd4-e768-e268-eee2" name="Ori, Clanhold Bruiser" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="082f-d253-a2cc-2182" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de3f-1679-b36a-9a5c" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="59eb-25f1-9d72-e8fc" name="Ori" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">3+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">32mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Drop Suit, Solid</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="821d-c897-011b-2826" name="Heavy Forge Hammer" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Smash (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d996-67bd-3a17-d610" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="3701-487a-f05f-72f5" name="Solid" hidden="false" targetId="5cf8-eb2f-a0ff-003b" type="rule"/>
+        <infoLink id="8bc0-fd5f-fab2-58bc" name="Smash (n)" hidden="false" targetId="3948-3af5-4928-3965" type="rule"/>
+        <infoLink id="2a26-b30f-0702-460c" name="Drop Suit" hidden="false" targetId="c3ce-30f6-4349-198d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5e4c-c62c-e7e4-a735" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f0b-6c58-e921-58d1" name="Draufnir, Clanhold Rekkhyrr" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63cc-f21a-1288-2ec8" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3aa-9682-b099-15a5" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="d125-bc0d-d340-3907" name="Draufnir" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Headstrong</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7ca5-4613-7598-eb96" name="Dragon&apos;s Breath" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R2</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">It Burns! (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="34db-499d-bb55-abbb" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+        <infoLink id="8d73-b436-5400-3238" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f2b4-006c-a8b7-30a9" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f8d-102f-ef8a-e084" name="Angrax, Clanhold Artificer" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="744c-8a36-e0a6-4e0c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="694c-22e1-ae61-7579" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="1ae1-d49f-a894-1e40" name="Angrax" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">1</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Hacker, Headstrong</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="98c8-47e4-c93e-93af" name="Magma Rifle" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R3</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Dismantle, It Burns! (3)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce8c-3562-835a-982e" name="Buzz Saw" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Companion, Frenzy (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="781a-2fe8-b3ab-805f" name="Frenzy (n)" hidden="false" targetId="a027-b66a-6884-847b" type="rule"/>
+        <infoLink id="f437-e18a-ea9a-3b74" name="Headstrong" hidden="false" targetId="7109-f790-bebd-317f" type="rule"/>
+        <infoLink id="d613-3669-5971-e223" name="Companion" hidden="false" targetId="9df4-1505-932d-a135" type="rule"/>
+        <infoLink id="3749-8482-81bf-6127" name="Dismantle" hidden="false" targetId="112a-31b3-42f1-e4fb" type="rule"/>
+        <infoLink id="e3a0-ef0a-c137-5931" name="It Burns! (n)" hidden="false" targetId="2719-d1a9-0852-f952" type="rule"/>
+        <infoLink id="6561-5c5a-103f-2b14" name="Hacker" hidden="false" targetId="a546-aaa9-c4fe-7b42" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="db43-306c-035d-20a4" name="Troop" hidden="false" targetId="359c-fce2-04fc-93b1" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fb8-d68a-e2d2-fc9d" name="Skjaldi, Clanhold Guard" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5271-7cb7-fd0e-2d63" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6216-52f7-175f-dbe3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="0752-d122-a508-f1fe" name="Skjaldi" hidden="false" typeId="69a2-9cae-5bf4-dc2d" typeName="Model">
+          <characteristics>
+            <characteristic name="SP" typeId="60d9-72b8-b674-250f">1-2</characteristic>
+            <characteristic name="RA" typeId="b27f-05a1-d5c3-6c25">4+</characteristic>
+            <characteristic name="FI" typeId="f4e2-8366-8c5f-d74d">4+</characteristic>
+            <characteristic name="SV" typeId="beab-fc63-a14f-0242">4+</characteristic>
+            <characteristic name="AR" typeId="666f-6b0b-f8f0-5954">2</characteristic>
+            <characteristic name="HP" typeId="63bb-c9e5-0126-03bb">2</characteristic>
+            <characteristic name="SZ" typeId="ef53-2622-e772-f4b4">1</characteristic>
+            <characteristic name="Base" typeId="2df5-8371-3046-feef">25mm</characteristic>
+            <characteristic name="Abilities" typeId="df9b-440a-5556-92eb">Life Support, Shield Generator (2), Solid</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="645e-eead-8324-0251" name="Mk2 Hailstorm Rifle" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">R6</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">AP1</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df5f-71bd-03f8-bd35" name="Shield Bash" hidden="false" typeId="79ae-b2a0-6216-4a64" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="4fec-80ed-f364-651e">CC</characteristic>
+            <characteristic name="AP" typeId="b83c-4711-2641-5adc">-</characteristic>
+            <characteristic name="Keywords" typeId="5f44-a8dd-9156-8d05">Knockback, Stun</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aad5-51d7-d4d0-9f28" name="Shield Generator (n)" hidden="false" targetId="18c6-f29b-f689-6ee2" type="rule"/>
+        <infoLink id="9a63-36d7-ece0-b18d" name="Solid" hidden="false" targetId="5cf8-eb2f-a0ff-003b" type="rule"/>
+        <infoLink id="f1dd-ecd3-f223-02c6" name="Knockback" hidden="false" targetId="bddf-77c1-55be-e183" type="rule"/>
+        <infoLink id="5956-66de-b588-70f1" name="Life Support" hidden="false" targetId="ac14-bd52-c8cc-3e11" type="rule"/>
+        <infoLink id="b115-c7a7-5824-247f" name="Stun" hidden="false" targetId="c3b4-0c3c-d63b-b757" type="rule"/>
+        <infoLink id="a368-abb5-7caa-f50e" name="Rapid Fire" hidden="false" targetId="76af-91a0-678c-8278" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f862-b41c-cdaf-3d79" name="Specialist" hidden="false" targetId="e0b7-1823-fa7a-dfa6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Pts" typeId="69b0-482f-35d5-9309" value="0.0"/>
+        <cost name=" VP" typeId="37c4-cdb6-d837-e224" value="3.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
